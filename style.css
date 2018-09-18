@@ -1,0 +1,70 @@
+@charset "utf-8"
+
+/*
+  Palette
+  Light blue: #246F7D;
+  Yellow-green: #999A1B;
+  Green: #55A31A;
+  Brown: #703B35;
+  Pink: #B1429C;
+  White: #F2F6EF;
+*/
+
+html {
+
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background-color: #246F7D;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #F0F2F2;
+}
+
+h2 {
+  font-size: 2.3em;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 2px solid #F0F2F2;
+}
+
+legend {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+section {
+  text-align: left;
+  margin: 0 auto;
+  width: 500px;
+}
+
+#hide_example {
+  display: flex;
+  /* justify-content: center; */
+  /* align-content: center; */
+  align-items: center;
+}
+
+#icon {
+  width: 33px;
+  height: 33px;
+  background-color: #F0F2F2;
+}
+
+#to_hide {
+  opacity: 0.0;
+  transition: 1.0s;
+  font-size: 1.6em;
+}
+
+.change #to_hide {
+  opacity: 1.0;
+}
